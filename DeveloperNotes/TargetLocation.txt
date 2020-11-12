@@ -1,0 +1,11 @@
+Target Location per Level:
+	Stage 1		-	-134, -11
+	Stage 2		-	-101.1, -11
+	Stage 3		-	-71.3, -11
+	Stage 4		-	-12.4, -11
+	Stage 5		-	49.5, -11
+	Stage 6		-	95, -11
+	Stage 7		-	136, -11
+	Stage 8		-	179, -11
+	Stage 9		-	218, -11
+	Stage 10	-	257, -11

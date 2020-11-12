@@ -1,0 +1,23 @@
+shadow:
+	posX = -212.0
+	posY = -68.6
+
+	Width = 52.8
+	Height = 13.1
+
+Center of shadow_X = (pos_x_shadow + 0.2*cosA)*32.7
+
+
+cylinder: 
+	posX = -6.69 = -234.15
+	posY = -1.51 = -52.85
+
+	length: 1.61
+	height: 0.4
+
+pixeL/unit conversion: 32.7
+
+
+horizontal length:
+
+	hl = l*cosA + l*sinA

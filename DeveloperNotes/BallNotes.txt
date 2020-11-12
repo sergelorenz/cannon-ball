@@ -1,0 +1,15 @@
+Ball dimensions scale:
+	0.37
+
+Ball Position on 0 degree angle
+	-5.87, -1.51
+
+Ball Position on 90 degree angle
+
+Ball constants:
+	Acceleration due to gravity = 0.6
+	Power multiplier = 0.34
+	Collision Factor = 0.9
+
+
+-		

@@ -1,0 +1,49 @@
+Power = 20
+red = 0
+green = 1
+
+power 100
+red = 1
+green = 0
+
+
+mREd = 0.0125
+y = 0.0125(x - 20)
+yRed = 0.0125x - 0.25
+
+
+mGreen = -0.0125
+yGreen = -0.0125(x - 100)
+yGreen = -0.0125x + 1.25
+
+Slider Position = 195, -147, 0
+
+
+For Slider Vibration:
+at power <= 50; all values are zero
+
+at power between 50 and 80; slider moves in x axis
+at power 80 to 100, slider moves both in x and y axis
+
+
+
+minimum amplitudeX = 0	maximum amplitudeX = 2.5
+minimum amplitudeY = 0	maximum amplitudeY = 1.5
+minimum frequencyX = 5		maximum frequncyX = 75
+minimum frequencyY = 5		maximum frequncyY = 100
+
+amplitudeX:
+	m = 0.05
+	amplitudeX = 0.05(power - 100) + 2.5
+
+FrequencyX
+	m = 1.4
+	frequencyX = 1.4(power - 100) + 75
+
+amplitudY:
+	m = 0.075
+	amplitudeY = 0.075(power - 100) + 1.5
+
+frequencyY:
+	m = 4.75
+	frequencyY = 4.75(power - 100) + 100
